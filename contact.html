@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="keywords" content="contact, address">
+  <meta http-equiv="refresh" content="30">
+  <meta name="viewport" content="width=width-devices initial-scale=1.0">
+  <title>contact</title>
+</head>
+
+<body>
+  <h1> Contact </h1>
+  <ul>
+    <li> <strong> Address: </strong> Kuala Lumpur, Malaysia </li>
+    <li> <strong> Phone No: </strong> +60378484994 </li>
+    <li> <strong> Email: </strong> saheed@inter-link.edu.my </li>
+  </ul>
+  <hr>
+  <form class="" action="index.html" method="post">
+    <label for="name">Your Full Name</label>
+    <input type="text" name="name" value=""> <br>
+    <label for="Email">Your Email</label>
+    <input type="Email" name="email" value=""><br>
+    <label for="color">What is your favourite color:</label>
+    <input type="color" name="color" value=""><br>
+    <label for="Tick">Tick:</label>
+    <input type="radio" name="tick" value=""><br>
+    <label for="button">Click submit</label>
+    <input type="button" name="button" value="submit"><br>
+    <label for="file">Submit File</label>
+    <input type="file" name="file" value=""><br>
+    <label for="level"></label>
+    <input type="range" id="level" name="level" value="">
+  </form>
+  <hr>
+
+  <form class="" action="mailto:saheed@inter-link.edu.my" method="post" enctype="text/plain">
+    <label for="fname"> First Name:</label>
+    <input type="text" name="first name" value=""><br>
+    <label for="email">Your Email:</label>
+    <input type="email" name="" value=""><br>
+    <label for="message">Enter your message here:</label><br>
+    <textarea name="name" rows="8" cols="80"></textarea><br>
+    <input type="submit" name="submit" value="submit">
+  </form>
+
+</body>
+
+</html>
+
+<!--<form class="#" action="index.html" method="post" enctype="text/plain">
+</form> We use this html to create a form to collect data from website users-->
+
+<!-- The class="#" Specifies one or more classnames for an element
+(refers to a class in a style sheet) -->
+
+<!--The "action" attribute tell the action to be performed when a form is submitted.
+The URL that processes the form submission. Specifies where to send the form-data
+when a form is submitted. Usually, the form data is sent to a page
+on the server when the user clicks on the submit button.In the example above, the
+form data is sent to a page on the server called "index.html". This page contains
+a server-side script that handles the form data: -->
+
+<!-- The "method" attribute specifies the HTTP method (GET or POST) to be used when
+submitting the form data. Specifies the HTTP method to use when sending form-data
+When GET is used, the form data will be visible in the page's address field on the
+browser. Always use POST if the form data contains sensitive or personal information.
+The POST method does not display the form data in the page address field on the browser.-->
+
+<!--enctype="text/plain" specifies that the data on the form is encoded with plain
+text-->
+
+<!-- The "target" atrribute specifies if the submitted result will open in a new browser
+tab, a frame or current windwon. Specifies the target for where to open the linked
+document or where to submit the form. The default value is "_self" which means the form will
+be submitted in the current window.To make the form result open in a new browser tab,
+use the value "_blank".-->
+
+<!--<label for="#">  # </label> The <label> tag describes a label
+for many form elements. The "For" attribute is use to connect "ID" attribute
+in input tag in order to bind both together -->
+
+<!--<input type="#" id="#" name="#" value=""> The <input> tag is define how we want to
+collect the data define in label.It is the most powerful form element and complex in
+all of HTML due to the sheer number of combinations of input types and attributes.
+The "TYPE" attribute define method of data collection eg text,button, range, file,
+tick, color, reset and many more.The "ID" attribute define the relasionship with
+"FOR" in the <label> tag to bind both together.The "name" attributes in input tag
+can repeat the same data in "ID" atrribute or we can put the exact data name require
+for instance if we want male or female then we can put gender as the name attribute.
+The "name" attribute specifies the name of the element. Each input field must have
+a name attribute to be submitted.If the name attribute is omitted, the data of that
+input field will not be sent at all.The value="#" attribute that is where the website
+user input the data requested by the website author. This need to remain empty
+unless we want to display data inside the input type to show example for the website user -->
+
+<!--<textarea name="name" rows="8" cols="80"></textarea><br> Quick mention, This
+html code is use for creating text box area where users can write thier message.
+This tags <textarea>  </textarea > specify the text box area. The name attribute
+specifies the name of the element.This attributes rows="#" specifies the row size
+of the text area.This attribute cols="#" specifies the column size of the text area -->
